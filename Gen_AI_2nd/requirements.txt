@@ -1,0 +1,6 @@
+langchain==0.0.312
+google-cloud-aiplatform
+tabulate
+pandas
+db-dtypes
+streamlit

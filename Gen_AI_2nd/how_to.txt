@@ -1,0 +1,12 @@
+This code works on python 3.9
+Please use below command to authorise google cloud in ur terminal
+
+To create bq tabl please upload Weather_data.csv in bq and use auto schema
+
+gcloud auth login
+gcloud config set project <project-id>
+gcloud auth application-default login
+
+
+
+streamlit run langchain_pandas_bq.py
